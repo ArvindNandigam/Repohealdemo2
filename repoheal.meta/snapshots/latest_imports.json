@@ -1,0 +1,490 @@
+{
+  "files": {
+    "app.py": {
+      "direct": [
+        "pandas",
+        "requests"
+      ],
+      "from": [
+        "datetime",
+        "typing",
+        "dateutil.parser",
+        "flask"
+      ],
+      "normalized": [
+        "datetime",
+        "typing",
+        "pandas",
+        "requests",
+        "python-dateutil",
+        "flask"
+      ],
+      "external": [],
+      "local": [],
+      "hierarchical": [
+        {
+          "source": "from",
+          "module": "datetime",
+          "symbol": "datetime",
+          "alias": null,
+          "root": "datetime",
+          "is_local": false,
+          "module_path": "datetime",
+          "leaf_path": "datetime.datetime",
+          "nodes": [
+            {
+              "path": "datetime",
+              "label": "datetime",
+              "kind": "Package",
+              "depth": 0,
+              "parent_path": null,
+              "relationship": null
+            },
+            {
+              "path": "datetime.datetime",
+              "label": "datetime",
+              "kind": "Symbol",
+              "depth": 1,
+              "parent_path": "datetime",
+              "relationship": "EXPOSES"
+            }
+          ]
+        },
+        {
+          "source": "from",
+          "module": "typing",
+          "symbol": "Any",
+          "alias": null,
+          "root": "typing",
+          "is_local": false,
+          "module_path": "typing",
+          "leaf_path": "typing.Any",
+          "nodes": [
+            {
+              "path": "typing",
+              "label": "typing",
+              "kind": "Package",
+              "depth": 0,
+              "parent_path": null,
+              "relationship": null
+            },
+            {
+              "path": "typing.Any",
+              "label": "Any",
+              "kind": "Symbol",
+              "depth": 1,
+              "parent_path": "typing",
+              "relationship": "EXPOSES"
+            }
+          ]
+        },
+        {
+          "source": "import",
+          "module": "pandas",
+          "symbol": null,
+          "alias": "pd",
+          "root": "pandas",
+          "is_local": false,
+          "module_path": "pandas",
+          "leaf_path": "pandas",
+          "nodes": [
+            {
+              "path": "pandas",
+              "label": "pandas",
+              "kind": "Package",
+              "depth": 0,
+              "parent_path": null,
+              "relationship": null
+            }
+          ]
+        },
+        {
+          "source": "import",
+          "module": "requests",
+          "symbol": null,
+          "alias": null,
+          "root": "requests",
+          "is_local": false,
+          "module_path": "requests",
+          "leaf_path": "requests",
+          "nodes": [
+            {
+              "path": "requests",
+              "label": "requests",
+              "kind": "Package",
+              "depth": 0,
+              "parent_path": null,
+              "relationship": null
+            }
+          ]
+        },
+        {
+          "source": "from",
+          "module": "dateutil.parser",
+          "symbol": "parse",
+          "alias": null,
+          "root": "dateutil",
+          "is_local": false,
+          "module_path": "dateutil.parser",
+          "leaf_path": "dateutil.parser.parse",
+          "nodes": [
+            {
+              "path": "dateutil",
+              "label": "dateutil",
+              "kind": "Package",
+              "depth": 0,
+              "parent_path": null,
+              "relationship": null
+            },
+            {
+              "path": "dateutil.parser",
+              "label": "parser",
+              "kind": "Module",
+              "depth": 1,
+              "parent_path": "dateutil",
+              "relationship": "CONTAINS"
+            },
+            {
+              "path": "dateutil.parser.parse",
+              "label": "parse",
+              "kind": "Symbol",
+              "depth": 2,
+              "parent_path": "dateutil.parser",
+              "relationship": "EXPOSES"
+            }
+          ]
+        },
+        {
+          "source": "from",
+          "module": "flask",
+          "symbol": "Flask",
+          "alias": null,
+          "root": "flask",
+          "is_local": false,
+          "module_path": "flask",
+          "leaf_path": "flask.Flask",
+          "nodes": [
+            {
+              "path": "flask",
+              "label": "flask",
+              "kind": "Package",
+              "depth": 0,
+              "parent_path": null,
+              "relationship": null
+            },
+            {
+              "path": "flask.Flask",
+              "label": "Flask",
+              "kind": "Symbol",
+              "depth": 1,
+              "parent_path": "flask",
+              "relationship": "EXPOSES"
+            }
+          ]
+        },
+        {
+          "source": "from",
+          "module": "flask",
+          "symbol": "jsonify",
+          "alias": null,
+          "root": "flask",
+          "is_local": false,
+          "module_path": "flask",
+          "leaf_path": "flask.jsonify",
+          "nodes": [
+            {
+              "path": "flask",
+              "label": "flask",
+              "kind": "Package",
+              "depth": 0,
+              "parent_path": null,
+              "relationship": null
+            },
+            {
+              "path": "flask.jsonify",
+              "label": "jsonify",
+              "kind": "Symbol",
+              "depth": 1,
+              "parent_path": "flask",
+              "relationship": "EXPOSES"
+            }
+          ]
+        },
+        {
+          "source": "attribute",
+          "module": "requests",
+          "symbol": "get",
+          "alias": null,
+          "root": "requests",
+          "is_local": false,
+          "inferred": true,
+          "module_path": "requests",
+          "leaf_path": "requests.get",
+          "nodes": [
+            {
+              "path": "requests",
+              "label": "requests",
+              "kind": "Package",
+              "depth": 0,
+              "parent_path": null,
+              "relationship": null
+            },
+            {
+              "path": "requests.get",
+              "label": "get",
+              "kind": "Symbol",
+              "depth": 1,
+              "parent_path": "requests",
+              "relationship": "EXPOSES"
+            }
+          ]
+        },
+        {
+          "source": "attribute",
+          "module": "requests",
+          "symbol": "raise_for_status",
+          "alias": null,
+          "root": "requests",
+          "is_local": false,
+          "inferred": true,
+          "module_path": "requests",
+          "leaf_path": "requests.raise_for_status",
+          "nodes": [
+            {
+              "path": "requests",
+              "label": "requests",
+              "kind": "Package",
+              "depth": 0,
+              "parent_path": null,
+              "relationship": null
+            },
+            {
+              "path": "requests.raise_for_status",
+              "label": "raise_for_status",
+              "kind": "Symbol",
+              "depth": 1,
+              "parent_path": "requests",
+              "relationship": "EXPOSES"
+            }
+          ]
+        },
+        {
+          "source": "attribute",
+          "module": "requests",
+          "symbol": "json",
+          "alias": null,
+          "root": "requests",
+          "is_local": false,
+          "inferred": true,
+          "module_path": "requests",
+          "leaf_path": "requests.json",
+          "nodes": [
+            {
+              "path": "requests",
+              "label": "requests",
+              "kind": "Package",
+              "depth": 0,
+              "parent_path": null,
+              "relationship": null
+            },
+            {
+              "path": "requests.json",
+              "label": "json",
+              "kind": "Symbol",
+              "depth": 1,
+              "parent_path": "requests",
+              "relationship": "EXPOSES"
+            }
+          ]
+        },
+        {
+          "source": "attribute",
+          "module": "pandas.DataFrame",
+          "symbol": "from_records",
+          "alias": null,
+          "root": "pandas",
+          "is_local": false,
+          "inferred": true,
+          "module_path": "pandas.DataFrame",
+          "leaf_path": "pandas.DataFrame.from_records",
+          "nodes": [
+            {
+              "path": "pandas",
+              "label": "pandas",
+              "kind": "Package",
+              "depth": 0,
+              "parent_path": null,
+              "relationship": null
+            },
+            {
+              "path": "pandas.DataFrame",
+              "label": "DataFrame",
+              "kind": "Module",
+              "depth": 1,
+              "parent_path": "pandas",
+              "relationship": "CONTAINS"
+            },
+            {
+              "path": "pandas.DataFrame.from_records",
+              "label": "from_records",
+              "kind": "Symbol",
+              "depth": 2,
+              "parent_path": "pandas.DataFrame",
+              "relationship": "EXPOSES"
+            }
+          ]
+        },
+        {
+          "source": "attribute",
+          "module": "pandas",
+          "symbol": "append",
+          "alias": null,
+          "root": "pandas",
+          "is_local": false,
+          "inferred": true,
+          "module_path": "pandas",
+          "leaf_path": "pandas.append",
+          "nodes": [
+            {
+              "path": "pandas",
+              "label": "pandas",
+              "kind": "Package",
+              "depth": 0,
+              "parent_path": null,
+              "relationship": null
+            },
+            {
+              "path": "pandas.append",
+              "label": "append",
+              "kind": "Symbol",
+              "depth": 1,
+              "parent_path": "pandas",
+              "relationship": "EXPOSES"
+            }
+          ]
+        },
+        {
+          "source": "attribute",
+          "module": "flask",
+          "symbol": "get",
+          "alias": null,
+          "root": "flask",
+          "is_local": false,
+          "inferred": true,
+          "module_path": "flask",
+          "leaf_path": "flask.get",
+          "nodes": [
+            {
+              "path": "flask",
+              "label": "flask",
+              "kind": "Package",
+              "depth": 0,
+              "parent_path": null,
+              "relationship": null
+            },
+            {
+              "path": "flask.get",
+              "label": "get",
+              "kind": "Symbol",
+              "depth": 1,
+              "parent_path": "flask",
+              "relationship": "EXPOSES"
+            }
+          ]
+        },
+        {
+          "source": "attribute",
+          "module": "datetime.datetime.utcnow",
+          "symbol": "isoformat",
+          "alias": null,
+          "root": "datetime",
+          "is_local": false,
+          "inferred": true,
+          "module_path": "datetime.datetime.utcnow",
+          "leaf_path": "datetime.datetime.utcnow.isoformat",
+          "nodes": [
+            {
+              "path": "datetime",
+              "label": "datetime",
+              "kind": "Package",
+              "depth": 0,
+              "parent_path": null,
+              "relationship": null
+            },
+            {
+              "path": "datetime.datetime",
+              "label": "datetime",
+              "kind": "Module",
+              "depth": 1,
+              "parent_path": "datetime",
+              "relationship": "CONTAINS"
+            },
+            {
+              "path": "datetime.datetime.utcnow",
+              "label": "utcnow",
+              "kind": "Module",
+              "depth": 2,
+              "parent_path": "datetime.datetime",
+              "relationship": "CONTAINS"
+            },
+            {
+              "path": "datetime.datetime.utcnow.isoformat",
+              "label": "isoformat",
+              "kind": "Symbol",
+              "depth": 3,
+              "parent_path": "datetime.datetime.utcnow",
+              "relationship": "EXPOSES"
+            }
+          ]
+        },
+        {
+          "source": "attribute",
+          "module": "datetime.datetime",
+          "symbol": "utcnow",
+          "alias": null,
+          "root": "datetime",
+          "is_local": false,
+          "inferred": true,
+          "module_path": "datetime.datetime",
+          "leaf_path": "datetime.datetime.utcnow",
+          "nodes": [
+            {
+              "path": "datetime",
+              "label": "datetime",
+              "kind": "Package",
+              "depth": 0,
+              "parent_path": null,
+              "relationship": null
+            },
+            {
+              "path": "datetime.datetime",
+              "label": "datetime",
+              "kind": "Module",
+              "depth": 1,
+              "parent_path": "datetime",
+              "relationship": "CONTAINS"
+            },
+            {
+              "path": "datetime.datetime.utcnow",
+              "label": "utcnow",
+              "kind": "Symbol",
+              "depth": 2,
+              "parent_path": "datetime.datetime",
+              "relationship": "EXPOSES"
+            }
+          ]
+        }
+      ],
+      "line_count": 49
+    }
+  },
+  "summary": {
+    "total_files": 1,
+    "total_python_files": 1,
+    "total_notebooks": 0,
+    "total_imports": 6,
+    "total_local_imports": 0,
+    "total_lines": 49
+  },
+  "analysis_id": "main_f328da6_20261031T063244"
+}

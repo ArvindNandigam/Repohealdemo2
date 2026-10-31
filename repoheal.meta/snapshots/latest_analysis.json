@@ -1,0 +1,965 @@
+{
+  "repository": "ArvindNandigam/Repohealdemo2",
+  "branch": "main",
+  "commit_sha": "f328da6a86eebd3ccbafea8dd4b0181a80ba9dcf",
+  "analyzed_at": "2026-10-31T06:32:44.511623+00:00",
+  "analysis_id": "main_f328da6_20261031T063244",
+  "analysis": {
+    "imports": {
+      "files": {
+        "app.py": {
+          "direct": [
+            "pandas",
+            "requests"
+          ],
+          "from": [
+            "datetime",
+            "typing",
+            "dateutil.parser",
+            "flask"
+          ],
+          "normalized": [
+            "datetime",
+            "typing",
+            "pandas",
+            "requests",
+            "python-dateutil",
+            "flask"
+          ],
+          "external": [],
+          "local": [],
+          "hierarchical": [
+            {
+              "source": "from",
+              "module": "datetime",
+              "symbol": "datetime",
+              "alias": null,
+              "root": "datetime",
+              "is_local": false,
+              "module_path": "datetime",
+              "leaf_path": "datetime.datetime",
+              "nodes": [
+                {
+                  "path": "datetime",
+                  "label": "datetime",
+                  "kind": "Package",
+                  "depth": 0,
+                  "parent_path": null,
+                  "relationship": null
+                },
+                {
+                  "path": "datetime.datetime",
+                  "label": "datetime",
+                  "kind": "Symbol",
+                  "depth": 1,
+                  "parent_path": "datetime",
+                  "relationship": "EXPOSES"
+                }
+              ]
+            },
+            {
+              "source": "from",
+              "module": "typing",
+              "symbol": "Any",
+              "alias": null,
+              "root": "typing",
+              "is_local": false,
+              "module_path": "typing",
+              "leaf_path": "typing.Any",
+              "nodes": [
+                {
+                  "path": "typing",
+                  "label": "typing",
+                  "kind": "Package",
+                  "depth": 0,
+                  "parent_path": null,
+                  "relationship": null
+                },
+                {
+                  "path": "typing.Any",
+                  "label": "Any",
+                  "kind": "Symbol",
+                  "depth": 1,
+                  "parent_path": "typing",
+                  "relationship": "EXPOSES"
+                }
+              ]
+            },
+            {
+              "source": "import",
+              "module": "pandas",
+              "symbol": null,
+              "alias": "pd",
+              "root": "pandas",
+              "is_local": false,
+              "module_path": "pandas",
+              "leaf_path": "pandas",
+              "nodes": [
+                {
+                  "path": "pandas",
+                  "label": "pandas",
+                  "kind": "Package",
+                  "depth": 0,
+                  "parent_path": null,
+                  "relationship": null
+                }
+              ]
+            },
+            {
+              "source": "import",
+              "module": "requests",
+              "symbol": null,
+              "alias": null,
+              "root": "requests",
+              "is_local": false,
+              "module_path": "requests",
+              "leaf_path": "requests",
+              "nodes": [
+                {
+                  "path": "requests",
+                  "label": "requests",
+                  "kind": "Package",
+                  "depth": 0,
+                  "parent_path": null,
+                  "relationship": null
+                }
+              ]
+            },
+            {
+              "source": "from",
+              "module": "dateutil.parser",
+              "symbol": "parse",
+              "alias": null,
+              "root": "dateutil",
+              "is_local": false,
+              "module_path": "dateutil.parser",
+              "leaf_path": "dateutil.parser.parse",
+              "nodes": [
+                {
+                  "path": "dateutil",
+                  "label": "dateutil",
+                  "kind": "Package",
+                  "depth": 0,
+                  "parent_path": null,
+                  "relationship": null
+                },
+                {
+                  "path": "dateutil.parser",
+                  "label": "parser",
+                  "kind": "Module",
+                  "depth": 1,
+                  "parent_path": "dateutil",
+                  "relationship": "CONTAINS"
+                },
+                {
+                  "path": "dateutil.parser.parse",
+                  "label": "parse",
+                  "kind": "Symbol",
+                  "depth": 2,
+                  "parent_path": "dateutil.parser",
+                  "relationship": "EXPOSES"
+                }
+              ]
+            },
+            {
+              "source": "from",
+              "module": "flask",
+              "symbol": "Flask",
+              "alias": null,
+              "root": "flask",
+              "is_local": false,
+              "module_path": "flask",
+              "leaf_path": "flask.Flask",
+              "nodes": [
+                {
+                  "path": "flask",
+                  "label": "flask",
+                  "kind": "Package",
+                  "depth": 0,
+                  "parent_path": null,
+                  "relationship": null
+                },
+                {
+                  "path": "flask.Flask",
+                  "label": "Flask",
+                  "kind": "Symbol",
+                  "depth": 1,
+                  "parent_path": "flask",
+                  "relationship": "EXPOSES"
+                }
+              ]
+            },
+            {
+              "source": "from",
+              "module": "flask",
+              "symbol": "jsonify",
+              "alias": null,
+              "root": "flask",
+              "is_local": false,
+              "module_path": "flask",
+              "leaf_path": "flask.jsonify",
+              "nodes": [
+                {
+                  "path": "flask",
+                  "label": "flask",
+                  "kind": "Package",
+                  "depth": 0,
+                  "parent_path": null,
+                  "relationship": null
+                },
+                {
+                  "path": "flask.jsonify",
+                  "label": "jsonify",
+                  "kind": "Symbol",
+                  "depth": 1,
+                  "parent_path": "flask",
+                  "relationship": "EXPOSES"
+                }
+              ]
+            },
+            {
+              "source": "attribute",
+              "module": "requests",
+              "symbol": "get",
+              "alias": null,
+              "root": "requests",
+              "is_local": false,
+              "inferred": true,
+              "module_path": "requests",
+              "leaf_path": "requests.get",
+              "nodes": [
+                {
+                  "path": "requests",
+                  "label": "requests",
+                  "kind": "Package",
+                  "depth": 0,
+                  "parent_path": null,
+                  "relationship": null
+                },
+                {
+                  "path": "requests.get",
+                  "label": "get",
+                  "kind": "Symbol",
+                  "depth": 1,
+                  "parent_path": "requests",
+                  "relationship": "EXPOSES"
+                }
+              ]
+            },
+            {
+              "source": "attribute",
+              "module": "requests",
+              "symbol": "raise_for_status",
+              "alias": null,
+              "root": "requests",
+              "is_local": false,
+              "inferred": true,
+              "module_path": "requests",
+              "leaf_path": "requests.raise_for_status",
+              "nodes": [
+                {
+                  "path": "requests",
+                  "label": "requests",
+                  "kind": "Package",
+                  "depth": 0,
+                  "parent_path": null,
+                  "relationship": null
+                },
+                {
+                  "path": "requests.raise_for_status",
+                  "label": "raise_for_status",
+                  "kind": "Symbol",
+                  "depth": 1,
+                  "parent_path": "requests",
+                  "relationship": "EXPOSES"
+                }
+              ]
+            },
+            {
+              "source": "attribute",
+              "module": "requests",
+              "symbol": "json",
+              "alias": null,
+              "root": "requests",
+              "is_local": false,
+              "inferred": true,
+              "module_path": "requests",
+              "leaf_path": "requests.json",
+              "nodes": [
+                {
+                  "path": "requests",
+                  "label": "requests",
+                  "kind": "Package",
+                  "depth": 0,
+                  "parent_path": null,
+                  "relationship": null
+                },
+                {
+                  "path": "requests.json",
+                  "label": "json",
+                  "kind": "Symbol",
+                  "depth": 1,
+                  "parent_path": "requests",
+                  "relationship": "EXPOSES"
+                }
+              ]
+            },
+            {
+              "source": "attribute",
+              "module": "pandas.DataFrame",
+              "symbol": "from_records",
+              "alias": null,
+              "root": "pandas",
+              "is_local": false,
+              "inferred": true,
+              "module_path": "pandas.DataFrame",
+              "leaf_path": "pandas.DataFrame.from_records",
+              "nodes": [
+                {
+                  "path": "pandas",
+                  "label": "pandas",
+                  "kind": "Package",
+                  "depth": 0,
+                  "parent_path": null,
+                  "relationship": null
+                },
+                {
+                  "path": "pandas.DataFrame",
+                  "label": "DataFrame",
+                  "kind": "Module",
+                  "depth": 1,
+                  "parent_path": "pandas",
+                  "relationship": "CONTAINS"
+                },
+                {
+                  "path": "pandas.DataFrame.from_records",
+                  "label": "from_records",
+                  "kind": "Symbol",
+                  "depth": 2,
+                  "parent_path": "pandas.DataFrame",
+                  "relationship": "EXPOSES"
+                }
+              ]
+            },
+            {
+              "source": "attribute",
+              "module": "pandas",
+              "symbol": "append",
+              "alias": null,
+              "root": "pandas",
+              "is_local": false,
+              "inferred": true,
+              "module_path": "pandas",
+              "leaf_path": "pandas.append",
+              "nodes": [
+                {
+                  "path": "pandas",
+                  "label": "pandas",
+                  "kind": "Package",
+                  "depth": 0,
+                  "parent_path": null,
+                  "relationship": null
+                },
+                {
+                  "path": "pandas.append",
+                  "label": "append",
+                  "kind": "Symbol",
+                  "depth": 1,
+                  "parent_path": "pandas",
+                  "relationship": "EXPOSES"
+                }
+              ]
+            },
+            {
+              "source": "attribute",
+              "module": "flask",
+              "symbol": "get",
+              "alias": null,
+              "root": "flask",
+              "is_local": false,
+              "inferred": true,
+              "module_path": "flask",
+              "leaf_path": "flask.get",
+              "nodes": [
+                {
+                  "path": "flask",
+                  "label": "flask",
+                  "kind": "Package",
+                  "depth": 0,
+                  "parent_path": null,
+                  "relationship": null
+                },
+                {
+                  "path": "flask.get",
+                  "label": "get",
+                  "kind": "Symbol",
+                  "depth": 1,
+                  "parent_path": "flask",
+                  "relationship": "EXPOSES"
+                }
+              ]
+            },
+            {
+              "source": "attribute",
+              "module": "datetime.datetime.utcnow",
+              "symbol": "isoformat",
+              "alias": null,
+              "root": "datetime",
+              "is_local": false,
+              "inferred": true,
+              "module_path": "datetime.datetime.utcnow",
+              "leaf_path": "datetime.datetime.utcnow.isoformat",
+              "nodes": [
+                {
+                  "path": "datetime",
+                  "label": "datetime",
+                  "kind": "Package",
+                  "depth": 0,
+                  "parent_path": null,
+                  "relationship": null
+                },
+                {
+                  "path": "datetime.datetime",
+                  "label": "datetime",
+                  "kind": "Module",
+                  "depth": 1,
+                  "parent_path": "datetime",
+                  "relationship": "CONTAINS"
+                },
+                {
+                  "path": "datetime.datetime.utcnow",
+                  "label": "utcnow",
+                  "kind": "Module",
+                  "depth": 2,
+                  "parent_path": "datetime.datetime",
+                  "relationship": "CONTAINS"
+                },
+                {
+                  "path": "datetime.datetime.utcnow.isoformat",
+                  "label": "isoformat",
+                  "kind": "Symbol",
+                  "depth": 3,
+                  "parent_path": "datetime.datetime.utcnow",
+                  "relationship": "EXPOSES"
+                }
+              ]
+            },
+            {
+              "source": "attribute",
+              "module": "datetime.datetime",
+              "symbol": "utcnow",
+              "alias": null,
+              "root": "datetime",
+              "is_local": false,
+              "inferred": true,
+              "module_path": "datetime.datetime",
+              "leaf_path": "datetime.datetime.utcnow",
+              "nodes": [
+                {
+                  "path": "datetime",
+                  "label": "datetime",
+                  "kind": "Package",
+                  "depth": 0,
+                  "parent_path": null,
+                  "relationship": null
+                },
+                {
+                  "path": "datetime.datetime",
+                  "label": "datetime",
+                  "kind": "Module",
+                  "depth": 1,
+                  "parent_path": "datetime",
+                  "relationship": "CONTAINS"
+                },
+                {
+                  "path": "datetime.datetime.utcnow",
+                  "label": "utcnow",
+                  "kind": "Symbol",
+                  "depth": 2,
+                  "parent_path": "datetime.datetime",
+                  "relationship": "EXPOSES"
+                }
+              ]
+            }
+          ],
+          "line_count": 49
+        }
+      },
+      "summary": {
+        "total_files": 1,
+        "total_python_files": 1,
+        "total_notebooks": 0,
+        "total_imports": 6,
+        "total_local_imports": 0,
+        "total_lines": 49
+      }
+    },
+    "semantic_graph": {
+      "files": {
+        "app.py": {
+          "module_name": "app",
+          "functions": [
+            {
+              "name": "fetch_records",
+              "qualified_name": "fetch_records",
+              "line_start": 17,
+              "line_end": 22,
+              "is_async": false
+            },
+            {
+              "name": "build_frame",
+              "qualified_name": "build_frame",
+              "line_start": 25,
+              "line_end": 28,
+              "is_async": false
+            },
+            {
+              "name": "parse_timestamp",
+              "qualified_name": "parse_timestamp",
+              "line_start": 31,
+              "line_end": 33,
+              "is_async": false
+            },
+            {
+              "name": "create_app",
+              "qualified_name": "create_app",
+              "line_start": 36,
+              "line_end": 44,
+              "is_async": false
+            },
+            {
+              "name": "health",
+              "qualified_name": "health",
+              "line_start": 41,
+              "line_end": 42,
+              "is_async": false
+            }
+          ],
+          "classes": [],
+          "calls": [
+            {
+              "name": "requests.get",
+              "canonical_root": "requests",
+              "line": 19,
+              "function": "fetch_records",
+              "is_local": false,
+              "is_external_api": true
+            },
+            {
+              "name": "requests.raise_for_status",
+              "canonical_root": "requests",
+              "line": 20,
+              "function": "fetch_records",
+              "is_local": false,
+              "is_external_api": true
+            },
+            {
+              "name": "requests.json",
+              "canonical_root": "requests",
+              "line": 21,
+              "function": "fetch_records",
+              "is_local": false,
+              "is_external_api": true
+            },
+            {
+              "name": "isinstance",
+              "canonical_root": "isinstance",
+              "line": 22,
+              "function": "fetch_records",
+              "is_local": false,
+              "is_external_api": true
+            },
+            {
+              "name": "pandas.DataFrame.from_records",
+              "canonical_root": "pandas",
+              "line": 27,
+              "function": "build_frame",
+              "is_local": false,
+              "is_external_api": true
+            },
+            {
+              "name": "pandas.append",
+              "canonical_root": "pandas",
+              "line": 28,
+              "function": "build_frame",
+              "is_local": false,
+              "is_external_api": true
+            },
+            {
+              "name": "datetime.datetime.utcnow.isoformat",
+              "canonical_root": "datetime",
+              "line": 28,
+              "function": "build_frame",
+              "is_local": false,
+              "is_external_api": true
+            },
+            {
+              "name": "datetime.datetime.utcnow",
+              "canonical_root": "datetime",
+              "line": 28,
+              "function": "build_frame",
+              "is_local": false,
+              "is_external_api": true
+            },
+            {
+              "name": "dateutil.parser.parse",
+              "canonical_root": "python-dateutil",
+              "line": 33,
+              "function": "parse_timestamp",
+              "is_local": false,
+              "is_external_api": true
+            },
+            {
+              "name": "flask.Flask",
+              "canonical_root": "flask",
+              "line": 38,
+              "function": "create_app",
+              "is_local": false,
+              "is_external_api": true
+            },
+            {
+              "name": "flask.jsonify",
+              "canonical_root": "flask",
+              "line": 42,
+              "function": "create_app.health",
+              "is_local": false,
+              "is_external_api": true
+            },
+            {
+              "name": "len",
+              "canonical_root": "len",
+              "line": 42,
+              "function": "create_app.health",
+              "is_local": false,
+              "is_external_api": true
+            },
+            {
+              "name": "build_frame",
+              "canonical_root": "build-frame",
+              "line": 42,
+              "function": "create_app.health",
+              "is_local": false,
+              "is_external_api": true
+            },
+            {
+              "name": "flask.get",
+              "canonical_root": "flask",
+              "line": 40,
+              "function": "create_app.health",
+              "is_local": false,
+              "is_external_api": true
+            },
+            {
+              "name": "create_app.run",
+              "canonical_root": "create-app",
+              "line": 49,
+              "function": null,
+              "is_local": false,
+              "is_external_api": true
+            },
+            {
+              "name": "create_app",
+              "canonical_root": "create-app",
+              "line": 49,
+              "function": null,
+              "is_local": false,
+              "is_external_api": true
+            }
+          ],
+          "apis": [
+            {
+              "name": "requests.get",
+              "package": "requests",
+              "line": 19,
+              "function": "fetch_records"
+            },
+            {
+              "name": "requests.raise_for_status",
+              "package": "requests",
+              "line": 20,
+              "function": "fetch_records"
+            },
+            {
+              "name": "requests.json",
+              "package": "requests",
+              "line": 21,
+              "function": "fetch_records"
+            },
+            {
+              "name": "isinstance",
+              "package": "isinstance",
+              "line": 22,
+              "function": "fetch_records"
+            },
+            {
+              "name": "pandas.DataFrame.from_records",
+              "package": "pandas",
+              "line": 27,
+              "function": "build_frame"
+            },
+            {
+              "name": "pandas.append",
+              "package": "pandas",
+              "line": 28,
+              "function": "build_frame"
+            },
+            {
+              "name": "datetime.datetime.utcnow.isoformat",
+              "package": "datetime",
+              "line": 28,
+              "function": "build_frame"
+            },
+            {
+              "name": "datetime.datetime.utcnow",
+              "package": "datetime",
+              "line": 28,
+              "function": "build_frame"
+            },
+            {
+              "name": "dateutil.parser.parse",
+              "package": "python-dateutil",
+              "line": 33,
+              "function": "parse_timestamp"
+            },
+            {
+              "name": "flask.Flask",
+              "package": "flask",
+              "line": 38,
+              "function": "create_app"
+            },
+            {
+              "name": "flask.jsonify",
+              "package": "flask",
+              "line": 42,
+              "function": "create_app.health"
+            },
+            {
+              "name": "len",
+              "package": "len",
+              "line": 42,
+              "function": "create_app.health"
+            },
+            {
+              "name": "build_frame",
+              "package": "build-frame",
+              "line": 42,
+              "function": "create_app.health"
+            },
+            {
+              "name": "flask.get",
+              "package": "flask",
+              "line": 40,
+              "function": "create_app.health"
+            },
+            {
+              "name": "create_app.run",
+              "package": "create-app",
+              "line": 49,
+              "function": null
+            },
+            {
+              "name": "create_app",
+              "package": "create-app",
+              "line": 49,
+              "function": null
+            }
+          ]
+        }
+      },
+      "summary": {
+        "total_files": 1,
+        "total_lines": 49,
+        "total_functions": 5,
+        "total_classes": 0,
+        "total_calls": 16,
+        "total_api_calls": 16
+      }
+    },
+    "dependencies": {
+      "declared": {
+        "flask": {
+          "version": "3.1.1",
+          "specifier": "==",
+          "source": "requirements.txt"
+        },
+        "pandas": {
+          "version": "2.3.3",
+          "specifier": "==",
+          "source": "requirements.txt"
+        },
+        "requests": {
+          "version": "2.32.5",
+          "specifier": "==",
+          "source": "requirements.txt"
+        },
+        "colorama": {
+          "version": "0.4.6",
+          "specifier": "==",
+          "source": "requirements.txt"
+        }
+      },
+      "count": 4
+    },
+    "dependency_graph": {
+      "datetime": {
+        "version": "unknown",
+        "latest_version": "6.0",
+        "type": "detected",
+        "status": "missing"
+      },
+      "flask": {
+        "version": "3.1.1",
+        "latest_version": "3.1.3",
+        "type": "third-party",
+        "status": "declared"
+      },
+      "pandas": {
+        "version": "2.3.3",
+        "latest_version": "3.1.0",
+        "type": "third-party",
+        "status": "declared"
+      },
+      "python-dateutil": {
+        "version": "unknown",
+        "latest_version": "3.0.0",
+        "type": "detected",
+        "status": "missing"
+      },
+      "requests": {
+        "version": "2.32.5",
+        "latest_version": "2.34.2",
+        "type": "third-party",
+        "status": "declared"
+      },
+      "typing": {
+        "version": "unknown",
+        "latest_version": "3.10.0.0",
+        "type": "detected",
+        "status": "missing"
+      }
+    },
+    "fingerprints": {
+      "requests": {
+        "version": "2.32.5",
+        "symbols": [
+          "requests.get",
+          "requests.json",
+          "requests.raise_for_status"
+        ],
+        "raw_symbols": [
+          "requests.get",
+          "requests.json",
+          "requests.raise_for_status"
+        ]
+      },
+      "isinstance": {
+        "version": "unknown",
+        "symbols": [
+          "isinstance",
+          "isinstance.isinstance"
+        ],
+        "raw_symbols": [
+          "isinstance"
+        ]
+      },
+      "pandas": {
+        "version": "2.3.3",
+        "symbols": [
+          "pandas.DataFrame.append",
+          "pandas.DataFrame.from_records",
+          "pandas.append",
+          "pandas.from_records"
+        ],
+        "raw_symbols": [
+          "pandas.DataFrame.from_records",
+          "pandas.append"
+        ]
+      },
+      "datetime": {
+        "version": "unknown",
+        "symbols": [
+          "datetime.datetime.utcnow",
+          "datetime.datetime.utcnow.isoformat",
+          "datetime.isoformat",
+          "datetime.utcnow"
+        ],
+        "raw_symbols": [
+          "datetime.datetime.utcnow",
+          "datetime.datetime.utcnow.isoformat"
+        ]
+      },
+      "python-dateutil": {
+        "version": "unknown",
+        "symbols": [
+          "dateutil.parser.parse",
+          "python-dateutil.parse"
+        ],
+        "raw_symbols": [
+          "dateutil.parser.parse"
+        ]
+      },
+      "flask": {
+        "version": "3.1.1",
+        "symbols": [
+          "flask.Flask",
+          "flask.get",
+          "flask.jsonify"
+        ],
+        "raw_symbols": [
+          "flask.Flask",
+          "flask.get",
+          "flask.jsonify"
+        ]
+      },
+      "len": {
+        "version": "unknown",
+        "symbols": [
+          "len",
+          "len.len"
+        ],
+        "raw_symbols": [
+          "len"
+        ]
+      },
+      "build-frame": {
+        "version": "unknown",
+        "symbols": [
+          "build-frame.build_frame",
+          "build_frame"
+        ],
+        "raw_symbols": [
+          "build_frame"
+        ]
+      },
+      "create-app": {
+        "version": "unknown",
+        "symbols": [
+          "create-app.create_app",
+          "create-app.run",
+          "create_app",
+          "create_app.run"
+        ],
+        "raw_symbols": [
+          "create_app",
+          "create_app.run"
+        ]
+      }
+    },
+    "issues": {
+      "missing_dependencies": [
+        "datetime",
+        "python-dateutil",
+        "typing"
+      ],
+      "unused_dependencies": [
+        "colorama"
+      ],
+      "missing_count": 3,
+      "unused_count": 1
+    },
+    "branch": "main",
+    "commit_sha": "f328da6a86eebd3ccbafea8dd4b0181a80ba9dcf",
+    "analysis_id": "main_f328da6_20261031T063244",
+    "repository_snapshot_id": "ArvindNandigam_Repohealdemo2_main_f328da6"
+  }
+}
