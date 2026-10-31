@@ -1,0 +1,256 @@
+{
+  "migration_id": "mig_main_f328da6_20261031T074304",
+  "analysis_id": "main_f328da6_20261031T074304",
+  "repository_snapshot_id": "ArvindNandigam_Repohealdemo2_main_f328da6",
+  "branch": "main",
+  "generated_from_commit": "f328da6a86eebd3ccbafea8dd4b0181a80ba9dcf",
+  "generated_at": "2026-10-31T07:43:13.778676+00:00",
+  "health_score": 68,
+  "risk_score": 39,
+  "overall_risk_level": "low",
+  "intelligence_warnings": [
+    "Health score is available from local analysis. External migration intelligence is still running."
+  ],
+  "report": {
+    "repository": "ArvindNandigam/Repohealdemo2",
+    "generated_at": "2026-10-31T07:43:12.957776+00:00",
+    "overall_health_score": 68,
+    "overall_risk_score": 39,
+    "overall_risk_level": "low",
+    "migration_risk_score": 39,
+    "migration_risk_level": "low",
+    "intelligence_warnings": [
+      "Health score is available from local analysis. External migration intelligence is still running."
+    ],
+    "migration_intelligence_status": "pending",
+    "intelligence_error": "",
+    "intelligence_source": "local_kb",
+    "executive_summary": {
+      "overall_health_score": 68,
+      "critical_findings_count": 0,
+      "deprecated_count": 1,
+      "breaking_count": 0
+    },
+    "dependency_inventory": [
+      {
+        "name": "datetime",
+        "installed_version": "unknown",
+        "latest_version": "6.0",
+        "status": "missing",
+        "type": "detected"
+      },
+      {
+        "name": "flask",
+        "installed_version": "3.1.1",
+        "latest_version": "3.1.3",
+        "status": "declared",
+        "type": "third-party"
+      },
+      {
+        "name": "pandas",
+        "installed_version": "2.3.3",
+        "latest_version": "3.1.0",
+        "status": "declared",
+        "type": "third-party"
+      },
+      {
+        "name": "python-dateutil",
+        "installed_version": "unknown",
+        "latest_version": "3.0.0",
+        "status": "missing",
+        "type": "detected"
+      },
+      {
+        "name": "requests",
+        "installed_version": "2.32.5",
+        "latest_version": "2.34.2",
+        "status": "declared",
+        "type": "third-party"
+      },
+      {
+        "name": "typing",
+        "installed_version": "unknown",
+        "latest_version": "3.10.0.0",
+        "status": "missing",
+        "type": "detected"
+      }
+    ],
+    "deprecated_apis": [
+      {
+        "symbol": "pandas.DataFrame.append",
+        "library": "pandas",
+        "installed_version": "2.3.3",
+        "latest_version": "3.1.0",
+        "status": "deprecated",
+        "relationships": [
+          {
+            "relation": "deprecated_in_favor_of",
+            "target": "pandas.concat",
+            "status": "deprecated",
+            "confidence": 0.95,
+            "evidence_links": []
+          }
+        ],
+        "version_distance": {
+          "installed": "2.3.3",
+          "deprecated_in": "2.0.0",
+          "removed_in": null,
+          "latest": "3.1.0",
+          "major_diff": 0,
+          "minor_diff": 0,
+          "patch_diff": 0,
+          "deprecated_major_diff": null,
+          "deprecated_minor_diff": null,
+          "deprecated_patch_diff": null,
+          "removed_major_diff": null,
+          "removed_minor_diff": null,
+          "removed_patch_diff": null
+        },
+        "files_using": [
+          "app.py"
+        ],
+        "functions_using": [
+          "build_frame"
+        ],
+        "confidence": null,
+        "intelligence_source": "local_kb"
+      }
+    ],
+    "breaking_changes": [
+      {
+        "symbol": "pandas@2.3.3 \u2192 3.1.0",
+        "library": "pandas",
+        "installed_version": "2.3.3",
+        "latest_version": "3.1.0",
+        "status": "at_risk",
+        "relationships": [
+          {
+            "relation": "major_version_gap",
+            "target": "3.1.0",
+            "status": "at_risk",
+            "confidence": 0.9,
+            "evidence_links": []
+          }
+        ],
+        "version_distance": {
+          "installed": "2.3.3",
+          "deprecated_in": null,
+          "removed_in": null,
+          "latest": "3.1.0",
+          "major_diff": 1,
+          "minor_diff": 1,
+          "patch_diff": 0,
+          "deprecated_major_diff": null,
+          "deprecated_minor_diff": null,
+          "deprecated_patch_diff": null,
+          "removed_major_diff": null,
+          "removed_minor_diff": null,
+          "removed_patch_diff": null
+        },
+        "files_using": [],
+        "functions_using": [],
+        "confidence": null,
+        "intelligence_source": "version_gap"
+      }
+    ],
+    "migration_paths": [
+      {
+        "symbol": "pandas@2.3.3 \u2192 3.1.0",
+        "target": "3.1.0",
+        "relation": "major_version_gap",
+        "confidence": 0.9
+      },
+      {
+        "symbol": "pandas.DataFrame.append",
+        "target": "pandas.concat",
+        "relation": "deprecated_in_favor_of",
+        "confidence": 0.95
+      }
+    ],
+    "impact_reports": [
+      {
+        "symbol": "pandas@2.3.3 \u2192 3.1.0",
+        "affected_files": [],
+        "affected_functions": [],
+        "affected_classes": [],
+        "impact_breadth": 0.0,
+        "impact_depth": 0
+      },
+      {
+        "symbol": "pandas.DataFrame.append",
+        "affected_files": [
+          {
+            "path": "app.py",
+            "lines": [
+              28
+            ]
+          }
+        ],
+        "affected_functions": [
+          {
+            "name": "build_frame",
+            "file_path": "app.py",
+            "line_start": 25,
+            "line_end": 28,
+            "call_chain_depth": 1
+          },
+          {
+            "name": "create_app.health",
+            "file_path": "unknown",
+            "line_start": null,
+            "line_end": null,
+            "call_chain_depth": 2
+          }
+        ],
+        "affected_classes": [],
+        "impact_breadth": 100.0,
+        "impact_depth": 2
+      }
+    ],
+    "risk_assessment": [
+      {
+        "symbol": "pandas@2.3.3 \u2192 3.1.0",
+        "risk_score": 24,
+        "risk_level": "low",
+        "factors": {
+          "affected_file_count": 0,
+          "affected_file_percentage": 0.0,
+          "breaking_severity": "medium",
+          "replacement_confidence": 0.9,
+          "version_distance_score": 43.0,
+          "repo_file_count": 1
+        }
+      },
+      {
+        "symbol": "pandas.DataFrame.append",
+        "risk_score": 39,
+        "risk_level": "low",
+        "factors": {
+          "affected_file_count": 1,
+          "affected_file_percentage": 100.0,
+          "breaking_severity": "low",
+          "replacement_confidence": 0.95,
+          "version_distance_score": 0.0,
+          "repo_file_count": 1
+        }
+      }
+    ],
+    "recommended_actions": [
+      {
+        "symbol": "pandas.DataFrame.append",
+        "priority": "medium",
+        "action_type": "migrate_api",
+        "description": "Migrate pandas.DataFrame.append with `pandas.concat` to avoid potential breakage. Impacted files: 1",
+        "confidence": 0.95
+      },
+      {
+        "symbol": "pandas@2.3.3 \u2192 3.1.0",
+        "priority": "medium",
+        "action_type": "migrate_api",
+        "description": "Migrate pandas@2.3.3 \u2192 3.1.0 to avoid potential breakage. Impacted files: 0",
+        "confidence": 0.9
+      }
+    ],
+    "compatibility_shims": ""
+  }
+}
