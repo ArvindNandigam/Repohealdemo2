@@ -4,27 +4,23 @@
   "repository_snapshot_id": "ArvindNandigam_Repohealdemo2_main_f328da6",
   "branch": "main",
   "generated_from_commit": "f328da6a86eebd3ccbafea8dd4b0181a80ba9dcf",
-  "generated_at": "2026-10-31T07:43:13.778676+00:00",
+  "generated_at": "2026-10-31T07:44:09.251944+00:00",
   "health_score": 68,
   "risk_score": 39,
   "overall_risk_level": "low",
-  "intelligence_warnings": [
-    "Health score is available from local analysis. External migration intelligence is still running."
-  ],
+  "intelligence_warnings": [],
   "report": {
     "repository": "ArvindNandigam/Repohealdemo2",
-    "generated_at": "2026-10-31T07:43:12.957776+00:00",
+    "generated_at": "2026-10-31T07:44:08.060440+00:00",
     "overall_health_score": 68,
     "overall_risk_score": 39,
     "overall_risk_level": "low",
     "migration_risk_score": 39,
     "migration_risk_level": "low",
-    "intelligence_warnings": [
-      "Health score is available from local analysis. External migration intelligence is still running."
-    ],
-    "migration_intelligence_status": "pending",
+    "intelligence_warnings": [],
+    "migration_intelligence_status": "success",
     "intelligence_error": "",
-    "intelligence_source": "local_kb",
+    "intelligence_source": "unknown",
     "executive_summary": {
       "overall_health_score": 68,
       "critical_findings_count": 0,
