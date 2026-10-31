@@ -8,17 +8,17 @@
   "last_analysis": null,
   "last_health_refresh": null,
   "last_commit_analyzed": null,
-  "latest_analysis": "repoheal.meta/analyses/main/f328da6/analysis_main_f328da6_20261031T063244.json",
+  "latest_analysis": "repoheal.meta/analyses/main/f328da6/analysis_main_f328da6_20261031T065611.json",
   "latest_report": null,
   "latest_migration": null,
   "analyses": [
     {
-      "analysis_id": "main_f328da6_20261031T063244",
+      "analysis_id": "main_f328da6_20261031T065611",
       "snapshot_id": "ArvindNandigam_Repohealdemo2_main_f328da6",
       "branch": "main",
       "commit": "f328da6a86eebd3ccbafea8dd4b0181a80ba9dcf",
-      "timestamp": "2026-10-31T06:32:44.511623+00:00",
-      "path": "repoheal.meta/analyses/main/f328da6/analysis_main_f328da6_20261031T063244.json"
+      "timestamp": "2026-10-31T06:56:11.637773+00:00",
+      "path": "repoheal.meta/analyses/main/f328da6/analysis_main_f328da6_20261031T065611.json"
     }
   ],
   "health_reports": [],
@@ -27,14 +27,14 @@
   "default_branch": "main",
   "current_head": "f328da6a86eebd3ccbafea8dd4b0181a80ba9dcf",
   "last_analyzed_commit": "f328da6a86eebd3ccbafea8dd4b0181a80ba9dcf",
-  "latest_analysis_id": "main_f328da6_20261031T063244",
-  "latest_analysis_at": "2026-10-31T06:32:44.511623+00:00",
+  "latest_analysis_id": "main_f328da6_20261031T065611",
+  "latest_analysis_at": "2026-10-31T06:56:11.637773+00:00",
   "latest_files": {
     "analysis": "repoheal.meta/snapshots/latest_analysis.json",
-    "analysis_record": "repoheal.meta/analyses/main/f328da6/analysis_main_f328da6_20261031T063244.json",
+    "analysis_record": "repoheal.meta/analyses/main/f328da6/analysis_main_f328da6_20261031T065611.json",
     "graph": "repoheal.meta/snapshots/latest_graph.json",
-    "graph_snapshot": "repoheal.meta/snapshots/data_ArvindNandigam_Repohealdemo2_f328da6_main_f328da6_20261031T063244.json",
-    "analysis_snapshot": "repoheal.meta/snapshots/analysis_main_f328da6_20261031T063244.json",
+    "graph_snapshot": "repoheal.meta/snapshots/data_ArvindNandigam_Repohealdemo2_f328da6_main_f328da6_20261031T065611.json",
+    "analysis_snapshot": "repoheal.meta/snapshots/analysis_main_f328da6_20261031T065611.json",
     "packages": "repoheal.meta/snapshots/latest_packages.json",
     "imports": "repoheal.meta/snapshots/latest_imports.json",
     "dependency_risk_report": "repoheal.meta/reports/dependency_risk_report.json"
