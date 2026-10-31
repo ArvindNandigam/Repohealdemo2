@@ -11,14 +11,21 @@
       "report": "repoheal.meta/analyses/main/f328da6/migration_report_main_f328da6_20261031T065611.md",
       "snapshot": "repoheal.meta/snapshots/analysis_main_f328da6_20261031T065611.json",
       "created_at": "2026-10-31T07:02:12.264837+00:00"
+    },
+    {
+      "analysis_id": "main_f328da6_20261031T074304",
+      "document": "repoheal.meta/migrations/migration_20261031_074414.md",
+      "report": "repoheal.meta/analyses/main/f328da6/migration_report_main_f328da6_20261031T074304.md",
+      "snapshot": "repoheal.meta/snapshots/analysis_main_f328da6_20261031T074304.json",
+      "created_at": "2026-10-31T07:44:15.244271+00:00"
     }
   ],
   "last_analysis": null,
-  "last_health_refresh": "2026-10-31T07:44:09.251944+00:00",
+  "last_health_refresh": "2026-10-31T07:44:15.244271+00:00",
   "last_commit_analyzed": null,
   "latest_analysis": "repoheal.meta/analyses/main/f328da6/analysis_main_f328da6_20261031T074304.json",
   "latest_report": null,
-  "latest_migration": "repoheal.meta/analyses/main/f328da6/migration_report_main_f328da6_20261031T065611.md",
+  "latest_migration": "repoheal.meta/analyses/main/f328da6/migration_report_main_f328da6_20261031T074304.md",
   "analyses": [
     {
       "analysis_id": "main_f328da6_20261031T074304",
@@ -37,7 +44,7 @@
     },
     {
       "analysis_id": "main_f328da6_20261031T074304",
-      "timestamp": "2026-10-31T07:44:09.251944+00:00",
+      "timestamp": "2026-10-31T07:44:15.244271+00:00",
       "path": "repoheal.meta/analyses/main/f328da6/health_report_main_f328da6_20261031T074304.json"
     }
   ],
@@ -48,6 +55,14 @@
       "analysis_id": "main_f328da6_20261031T065611",
       "timestamp": "2026-10-31T07:02:12.264837+00:00",
       "path": "repoheal.meta/analyses/main/f328da6/migration_report_main_f328da6_20261031T065611.md",
+      "risk_score": 39,
+      "overall_risk_level": "low"
+    },
+    {
+      "migration_id": "mig_main_f328da6_20261031T074304",
+      "analysis_id": "main_f328da6_20261031T074304",
+      "timestamp": "2026-10-31T07:44:15.244271+00:00",
+      "path": "repoheal.meta/analyses/main/f328da6/migration_report_main_f328da6_20261031T074304.md",
       "risk_score": 39,
       "overall_risk_level": "low"
     }
